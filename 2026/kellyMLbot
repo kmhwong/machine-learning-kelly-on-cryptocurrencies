@@ -1,0 +1,821 @@
+"""
+kelly_bot_ml.py  —  Kelly Criterion Bot v3
+==========================================
+Probability engine: XGBoost + calibration comparison
+  (Isotonic | Platt/Sigmoid | Beta — best is auto-selected by Brier score)
+
+Features:
+  - Price returns   : 1, 3, 6, 12, 24, 48-bar log returns
+  - RSI / Momentum  : RSI-14, RSI-6, rate-of-change, MACD signal
+  - Volatility      : rolling std (6,24,48-bar), ATR-14, realised vol ratio
+  - Volume          : volume z-score, OBV slope, buy/sell volume imbalance
+
+Validation:
+  - Anchored walk-forward (n folds)
+  - Calibration curve comparison across all three methods
+  - Brier score, log-loss, ROC-AUC per fold
+  - Feature importance plot
+  - Wilson CI lower-bound used as conservative p in Kelly
+
+Usage examples:
+  python kelly_bot_ml.py --symbol BTCUSDT --interval 1h --mode backtest
+  python kelly_bot_ml.py --symbol BTCUSDT --interval 1h --mode validate
+  python kelly_bot_ml.py --symbol SOLUSDT --interval 4h --mode backtest --gain 0.04 --loss 0.02
+"""
+
+import argparse
+import logging
+import warnings
+import requests
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
+
+from scipy import stats
+from scipy.special import expit          # sigmoid
+
+from sklearn.pipeline          import Pipeline
+from sklearn.preprocessing     import StandardScaler
+from sklearn.linear_model      import LogisticRegression
+from sklearn.calibration       import CalibratedClassifierCV, calibration_curve
+from sklearn.isotonic          import IsotonicRegression
+from sklearn.metrics           import (brier_score_loss, log_loss,
+                                       roc_auc_score, RocCurveDisplay)
+
+import xgboost as xgb
+
+warnings.filterwarnings('ignore', category=UserWarning)
+
+# ---------------------------------------------------------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+log = logging.getLogger(__name__)
+
+# ===========================================================================
+# DATA LAYER
+# ===========================================================================
+
+def fetch_binance_klines(symbol: str, interval: str, lookback_bars: int) -> pd.DataFrame:
+    """Fetches historical OHLCV from Binance, paginating to get full history."""
+    url      = "https://api.binance.com/api/v3/klines"
+    all_data = []
+    end_time = None
+    remaining = lookback_bars
+
+    while remaining > 0:
+        params = {"symbol": symbol, "interval": interval, "limit": min(remaining, 1000)}
+        if end_time:
+            params["endTime"] = end_time
+        r = requests.get(url, params=params, timeout=10)
+        r.raise_for_status()
+        batch = r.json()
+        if not batch:
+            break
+        all_data   = batch + all_data
+        end_time   = batch[0][0] - 1
+        remaining -= len(batch)
+        if len(batch) < 1000:
+            break
+
+    df = pd.DataFrame(all_data, columns=[
+        'open_dt','open','high','low','close','volume',
+        'close_dt','quote_vol','trades','taker_base','taker_quote','ignore'
+    ])
+    df = (df.drop_duplicates('open_dt')
+            .sort_values('open_dt')
+            .reset_index(drop=True))
+
+    df['open_dt']  = pd.to_datetime(df['open_dt'],  unit='ms', utc=True)
+    df['close_dt'] = pd.to_datetime(df['close_dt'], unit='ms', utc=True)
+    for c in ['open','high','low','close','volume','quote_vol',
+              'trades','taker_base','taker_quote']:
+        df[c] = df[c].astype(float)
+
+    log.info(f"Fetched {len(df)} bars  {symbol} @ {interval}")
+    return df
+
+
+# ===========================================================================
+# OUTCOME LABELLING  (no look-ahead beyond horizon)
+# ===========================================================================
+
+def label_outcomes(df: pd.DataFrame, gain: float, loss: float, horizon: int) -> pd.DataFrame:
+    """
+    Binary label per bar:
+      1 = gain target hit before loss target within `horizon` bars
+      0 = loss target hit first, or neither within horizon (unresolved → NaN)
+
+    Only bars [0 .. n-horizon-1] can receive a label; the rest are NaN.
+    """
+    closes = df['close'].values
+    highs  = df['high'].values
+    lows   = df['low'].values
+    n      = len(df)
+    outcomes = np.full(n, np.nan)
+
+    for i in range(n - horizon):
+        entry      = closes[i]
+        tgt_gain   = entry * (1 + gain)
+        tgt_loss   = entry * (1 - loss)
+        for j in range(1, horizon + 1):
+            if highs[i + j] >= tgt_gain:
+                outcomes[i] = 1.0
+                break
+            elif lows[i + j] <= tgt_loss:
+                outcomes[i] = 0.0
+                break
+
+    df = df.copy()
+    df['outcome'] = outcomes
+    return df
+
+
+# ===========================================================================
+# FEATURE ENGINEERING
+# ===========================================================================
+
+def compute_rsi(series: pd.Series, period: int = 14) -> pd.Series:
+    delta = series.diff()
+    gain  = delta.clip(lower=0).rolling(period).mean()
+    loss  = (-delta.clip(upper=0)).rolling(period).mean()
+    rs    = gain / loss.replace(0, np.nan)
+    return 100 - (100 / (1 + rs))
+
+
+def compute_atr(df: pd.DataFrame, period: int = 14) -> pd.Series:
+    hl  = df['high'] - df['low']
+    hpc = (df['high'] - df['close'].shift(1)).abs()
+    lpc = (df['low']  - df['close'].shift(1)).abs()
+    tr  = pd.concat([hl, hpc, lpc], axis=1).max(axis=1)
+    return tr.rolling(period).mean()
+
+
+def build_features(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Constructs the feature matrix.  All features are lag-safe:
+    every value at row i uses only data available at bar i
+    (no future price/volume information).
+
+    Feature groups
+    --------------
+    Price returns   : log returns over 1,3,6,12,24,48 bars
+    RSI/Momentum    : RSI-6, RSI-14, ROC-12, MACD signal line
+    Volatility      : rolling std 6/24/48 bar, ATR-14, vol-ratio (6/48)
+    Volume          : vol z-score-24, OBV slope, taker-buy imbalance
+    """
+    df = df.copy()
+    c  = df['close']
+    v  = df['volume']
+
+    # --- Price returns (log) ---
+    for n in [1, 3, 6, 12, 24, 48]:
+        df[f'ret_{n}'] = np.log(c / c.shift(n))
+
+    # --- RSI / Momentum ---
+    df['rsi_6']  = compute_rsi(c, 6)
+    df['rsi_14'] = compute_rsi(c, 14)
+    df['roc_12'] = (c - c.shift(12)) / c.shift(12)
+
+    # MACD: 12-bar EMA minus 26-bar EMA, then 9-bar signal line
+    ema12        = c.ewm(span=12, adjust=False).mean()
+    ema26        = c.ewm(span=26, adjust=False).mean()
+    macd_line    = ema12 - ema26
+    df['macd_signal'] = macd_line - macd_line.ewm(span=9, adjust=False).mean()
+
+    # --- Volatility ---
+    for n in [6, 24, 48]:
+        df[f'vol_std_{n}'] = df['ret_1'].rolling(n).std()
+    df['atr_14']    = compute_atr(df, 14)
+    df['atr_pct']   = df['atr_14'] / c          # normalised ATR
+    df['vol_ratio'] = df['vol_std_6'] / df['vol_std_48'].replace(0, np.nan)
+
+    # --- Volume ---
+    vol_mean        = v.rolling(24).mean()
+    vol_std         = v.rolling(24).std().replace(0, np.nan)
+    df['vol_zscore'] = (v - vol_mean) / vol_std
+
+    # On-Balance Volume slope (linear regression slope over 12 bars)
+    obv = (np.sign(df['ret_1']) * v).cumsum()
+    df['obv_slope'] = obv.rolling(12).apply(
+        lambda x: np.polyfit(range(len(x)), x, 1)[0], raw=True
+    ) / (v.rolling(12).mean() + 1e-9)           # normalise by avg volume
+
+    # Taker buy imbalance: fraction of volume that was aggressive buys
+    df['buy_imbalance'] = df['taker_base'] / v.replace(0, np.nan) - 0.5
+
+    return df
+
+
+FEATURE_COLS = [
+    'ret_1','ret_3','ret_6','ret_12','ret_24','ret_48',
+    'rsi_6','rsi_14','roc_12','macd_signal',
+    'vol_std_6','vol_std_24','vol_std_48','atr_pct','vol_ratio',
+    'vol_zscore','obv_slope','buy_imbalance',
+]
+
+
+# ===========================================================================
+# CALIBRATION COMPARISON
+# ===========================================================================
+
+def _beta_calibrate(p_raw: np.ndarray, y: np.ndarray,
+                    p_test: np.ndarray) -> np.ndarray:
+    """
+    Beta calibration via log-odds logistic fit  (Kull & Flach 2017).
+    Maps raw scores through  sigmoid(a*log(p) + b*log(1-p) + c).
+    Fit on (p_raw, y); apply to p_test.
+    """
+    eps = 1e-7
+    p   = np.clip(p_raw,  eps, 1 - eps)
+    pt  = np.clip(p_test, eps, 1 - eps)
+
+    X_fit  = np.column_stack([np.log(p),  np.log(1 - p)])
+    X_pred = np.column_stack([np.log(pt), np.log(1 - pt)])
+
+    lr = LogisticRegression(C=1e6, solver='lbfgs', max_iter=1000)
+    lr.fit(X_fit, y)
+    return lr.predict_proba(X_pred)[:, 1]
+
+
+def compare_calibrations(
+    X_train: np.ndarray, y_train: np.ndarray,
+    X_val:   np.ndarray, y_val:   np.ndarray,
+    base_xgb: xgb.XGBClassifier,
+) -> tuple[dict, str]:
+    """
+    Trains three calibration wrappers on (X_train, y_train),
+    evaluates on (X_val, y_val).
+
+    Returns
+    -------
+    results : dict  {method_name: {'probs': array, 'brier': float,
+                                   'logloss': float, 'auc': float}}
+    best    : str   name of the best method by Brier score
+    """
+    # Raw XGBoost probabilities (no calibration)
+    raw_probs_train = base_xgb.predict_proba(X_train)[:, 1]
+    raw_probs_val   = base_xgb.predict_proba(X_val)[:, 1]
+
+    results = {}
+
+    # 1. Platt / Sigmoid
+    platt = CalibratedClassifierCV(base_xgb, method='sigmoid', cv='prefit')
+    platt.fit(X_train, y_train)
+    p_platt = platt.predict_proba(X_val)[:, 1]
+    results['Platt'] = dict(
+        probs   = p_platt,
+        brier   = brier_score_loss(y_val, p_platt),
+        logloss = log_loss(y_val, p_platt),
+        auc     = roc_auc_score(y_val, p_platt),
+        model   = platt,
+    )
+
+    # 2. Isotonic
+    iso = CalibratedClassifierCV(base_xgb, method='isotonic', cv='prefit')
+    iso.fit(X_train, y_train)
+    p_iso = iso.predict_proba(X_val)[:, 1]
+    results['Isotonic'] = dict(
+        probs   = p_iso,
+        brier   = brier_score_loss(y_val, p_iso),
+        logloss = log_loss(y_val, p_iso),
+        auc     = roc_auc_score(y_val, p_iso),
+        model   = iso,
+    )
+
+    # 3. Beta calibration (custom)
+    p_beta = _beta_calibrate(raw_probs_train, y_train, raw_probs_val)
+    results['Beta'] = dict(
+        probs    = p_beta,
+        brier    = brier_score_loss(y_val, p_beta),
+        logloss  = log_loss(y_val, p_beta),
+        auc      = roc_auc_score(y_val, p_beta),
+        model    = None,   # custom; we store the fitted params separately
+        _raw_tr  = raw_probs_train,
+        _y_tr    = y_train,
+    )
+
+    best = min(results, key=lambda k: results[k]['brier'])
+
+    log.info("--- Calibration Comparison ---")
+    for name, res in results.items():
+        marker = " ← BEST" if name == best else ""
+        log.info(
+            f"  {name:10s}  Brier={res['brier']:.5f}  "
+            f"LogLoss={res['logloss']:.5f}  AUC={res['auc']:.4f}{marker}"
+        )
+
+    return results, best
+
+
+def plot_calibration_curves(results: dict, y_val: np.ndarray,
+                             breakeven_p: float, fold_label: str = "") -> None:
+    fig, axes = plt.subplots(1, 3, figsize=(15, 5))
+    fig.suptitle(f'Calibration Curves {fold_label}', fontsize=13)
+    colours = {'Platt': 'royalblue', 'Isotonic': 'darkorange', 'Beta': 'seagreen'}
+
+    ax_main = axes[0]
+    ax_main.plot([0, 1], [0, 1], 'k--', lw=1, label='Perfect')
+    ax_main.axvline(breakeven_p, color='red', lw=0.8, linestyle=':', label='Breakeven')
+
+    for name, res in results.items():
+        frac_pos, mean_pred = calibration_curve(y_val, res['probs'], n_bins=10)
+        ax_main.plot(mean_pred, frac_pos, marker='o', lw=1.5,
+                     color=colours[name], label=name)
+
+    ax_main.set_xlabel('Mean Predicted Probability')
+    ax_main.set_ylabel('Fraction of Positives')
+    ax_main.set_title('Reliability Diagram')
+    ax_main.legend(fontsize=8)
+
+    # Brier scores bar chart
+    axes[1].bar(results.keys(),
+                [r['brier'] for r in results.values()],
+                color=[colours[k] for k in results])
+    axes[1].set_title('Brier Score (lower = better)')
+    axes[1].set_ylabel('Brier Score')
+
+    # AUC bar chart
+    axes[2].bar(results.keys(),
+                [r['auc'] for r in results.values()],
+                color=[colours[k] for k in results])
+    axes[2].set_title('ROC-AUC (higher = better)')
+    axes[2].set_ylabel('AUC')
+    axes[2].set_ylim(0.4, 1.0)
+
+    plt.tight_layout()
+    fname = f"calibration{'_' + fold_label if fold_label else ''}.png"
+    plt.savefig(fname, dpi=150)
+    log.info(f"Calibration plot saved → {fname}")
+    plt.show()
+
+
+# ===========================================================================
+# ML MODEL: fit / predict pipeline
+# ===========================================================================
+
+def fit_model(X_train: np.ndarray, y_train: np.ndarray,
+              X_cal:   np.ndarray, y_cal:   np.ndarray,
+              args) -> dict:
+    """
+    1. Fits a base XGBoost classifier on X_train / y_train.
+    2. Compares three calibration methods on X_cal / y_cal.
+    3. Returns the best calibrated model + metadata.
+
+    Train/calibration split: 80/20 of the provided train set
+    (caller decides the outer walk-forward split).
+    """
+    # Handle class imbalance
+    pos_rate = y_train.mean()
+    scale_pw  = (1 - pos_rate) / max(pos_rate, 1e-9)
+
+    base = xgb.XGBClassifier(
+        n_estimators      = 300,
+        max_depth         = 4,
+        learning_rate     = 0.05,
+        subsample         = 0.8,
+        colsample_bytree  = 0.8,
+        scale_pos_weight  = scale_pw,
+        eval_metric       = 'logloss',
+        use_label_encoder = False,
+        verbosity         = 0,
+        random_state      = 42,
+    )
+    base.fit(X_train, y_train,
+             eval_set=[(X_cal, y_cal)],
+             verbose=False)
+
+    cal_results, best_name = compare_calibrations(
+        X_train, y_train, X_cal, y_cal, base
+    )
+
+    return {
+        'base':        base,
+        'cal_results': cal_results,
+        'best_name':   best_name,
+        'best_model':  cal_results[best_name]['model'],   # None if Beta
+        'best_raw_tr': cal_results[best_name].get('_raw_tr'),
+        'best_y_tr':   cal_results[best_name].get('_y_tr'),
+    }
+
+
+def predict_proba(model_dict: dict, X: np.ndarray) -> np.ndarray:
+    """Returns calibrated probability for each row in X."""
+    best_name  = model_dict['best_name']
+    base       = model_dict['base']
+
+    if best_name == 'Beta':
+        raw = base.predict_proba(X)[:, 1]
+        return _beta_calibrate(
+            model_dict['best_raw_tr'],
+            model_dict['best_y_tr'],
+            raw
+        )
+    else:
+        return model_dict['best_model'].predict_proba(X)[:, 1]
+
+
+# ===========================================================================
+# WILSON CONFIDENCE INTERVAL (conservative p for Kelly)
+# ===========================================================================
+
+def wilson_lower(p_hat: float, n: int, confidence: float = 0.95) -> float:
+    """
+    Lower bound of the Wilson score interval.
+    This is the conservative probability estimate fed into Kelly.
+    """
+    if n < 10 or np.isnan(p_hat):
+        return np.nan
+    z     = stats.norm.ppf(1 - (1 - confidence) / 2)
+    denom = 1 + z**2 / n
+    centre = (p_hat + z**2 / (2 * n)) / denom
+    half   = z * np.sqrt(p_hat * (1 - p_hat) / n + z**2 / (4 * n**2)) / denom
+    return max(centre - half, 0.0)
+
+
+# ===========================================================================
+# KELLY FRACTION
+# ===========================================================================
+
+def kelly_fraction(p: float, gain: float, loss: float, mult: float) -> float:
+    """
+    Standard binary Kelly with fractional multiplier.
+    f* = [ p/loss - (1-p)/gain ] * mult
+    Clamped to [0, 1].
+    """
+    if np.isnan(p):
+        return 0.0
+    f = (p / loss - (1 - p) / gain) * mult
+    return float(np.clip(f, 0.0, 1.0))
+
+
+# ===========================================================================
+# WALK-FORWARD BACKTESTER
+# ===========================================================================
+
+def walk_forward(df: pd.DataFrame, args,
+                 plot_calibration: bool = True) -> list[dict]:
+    """
+    Anchored walk-forward with ML probability estimation.
+
+    Each fold:
+      train_df    → fit XGBoost + select best calibration
+      cal_df      → calibration holdout (last 20% of train)
+      test_df     → out-of-sample backtest
+
+    The Kelly fraction at each test bar uses:
+      p_wilson = Wilson CI lower bound of the calibrated probability
+    """
+    feature_df = build_features(label_outcomes(df, args.gain, args.loss, args.horizon_bars))
+    feature_df = feature_df.dropna(subset=FEATURE_COLS + ['outcome']).reset_index(drop=True)
+
+    n           = len(feature_df)
+    min_train   = max(500, args.train_min)
+    test_window = max(100, int(n * args.wf_test_pct))
+
+    fold_metrics = []
+    fold_num     = 0
+
+    while True:
+        fold_num   += 1
+        train_end   = min_train + (fold_num - 1) * test_window
+        test_start  = train_end
+        test_end    = test_start + test_window
+
+        if test_end > n:
+            break
+        if fold_num > args.wf_splits:
+            break
+
+        train_df = feature_df.iloc[:train_end].copy()
+        test_df  = feature_df.iloc[test_start:test_end].copy()
+
+        # 80/20 split of train into fit / calibration
+        cal_split  = int(len(train_df) * 0.8)
+        fit_df     = train_df.iloc[:cal_split]
+        cal_df     = train_df.iloc[cal_split:]
+
+        X_fit  = fit_df[FEATURE_COLS].values
+        y_fit  = fit_df['outcome'].values.astype(int)
+        X_cal  = cal_df[FEATURE_COLS].values
+        y_cal  = cal_df['outcome'].values.astype(int)
+        X_test = test_df[FEATURE_COLS].values
+
+        log.info(f"Fold {fold_num}: train={len(train_df)} cal={len(cal_df)} test={len(test_df)}")
+
+        model_dict = fit_model(X_fit, y_fit, X_cal, y_cal, args)
+
+        if plot_calibration and fold_num == 1:
+            plot_calibration_curves(
+                model_dict['cal_results'],
+                y_cal,
+                breakeven_p = args.loss / (args.gain + args.loss),
+                fold_label  = f"Fold{fold_num}"
+            )
+
+        # --- Predict on test set ---
+        raw_probs = predict_proba(model_dict, X_test)
+
+        # Wilson lower bound (conservative Kelly input)
+        n_obs         = len(y_fit)
+        p_conservative = np.array([wilson_lower(p, n_obs) for p in raw_probs])
+
+        breakeven_p   = args.loss / (args.gain + args.loss)
+        min_edge_p    = breakeven_p + args.min_edge
+
+        test_df = test_df.copy()
+        test_df['p_raw']         = raw_probs
+        test_df['p_conservative']= p_conservative
+        test_df['target_frac']   = [
+            kelly_fraction(p, args.gain, args.loss, args.kelly_mult)
+            if p > min_edge_p else 0.0
+            for p in p_conservative
+        ]
+
+        # --- Simulate trading ---
+        metrics = _simulate(test_df, args,
+                            label=f"Fold {fold_num}",
+                            verbose=(args.mode == 'backtest'))
+        metrics['model_dict'] = model_dict
+        metrics['test_df']    = test_df
+        fold_metrics.append(metrics)
+
+    return fold_metrics
+
+
+def _simulate(df: pd.DataFrame, args, label: str = "",
+              verbose: bool = True,
+              starting_capital: float = 10_000.0) -> dict:
+    """Execute the deadband rebalance strategy on a pre-labelled dataframe."""
+    usdt      = starting_capital
+    asset     = 0.0
+    fee_rate  = 0.001
+    total_fee = 0.0
+    n_trades  = 0
+    portfolio = []
+
+    for _, row in df.iterrows():
+        price       = row['close']
+        total_value = usdt + asset * price
+        portfolio.append(total_value)
+
+        if pd.isna(row.get('target_frac', np.nan)):
+            continue
+
+        current_frac = (asset * price) / total_value if total_value > 0 else 0.0
+        target_frac  = row['target_frac']
+
+        if abs(target_frac - current_frac) < args.deadband:
+            continue
+
+        delta = (target_frac - current_frac) * total_value
+
+        if delta > 0:                        # BUY
+            fee = delta * fee_rate
+            if usdt >= delta + fee:
+                asset    += delta / price
+                usdt     -= delta + fee
+                total_fee += fee
+                n_trades  += 1
+                if verbose:
+                    log.info(
+                        f"[{row['close_dt']}] p={row['p_conservative']:.4f} | "
+                        f"BUY  {delta:>8.2f} USDT | frac→{target_frac:.2f}"
+                    )
+        else:                                # SELL
+            sell_val = abs(delta)
+            qty      = sell_val / price
+            fee      = sell_val * fee_rate
+            if asset >= qty:
+                asset    -= qty
+                usdt     += sell_val - fee
+                total_fee += fee
+                n_trades  += 1
+                if verbose:
+                    log.info(
+                        f"[{row['close_dt']}] p={row['p_conservative']:.4f} | "
+                        f"SELL {sell_val:>8.2f} USDT | frac→{target_frac:.2f}"
+                    )
+
+    df = df.copy()
+    df['portfolio_value'] = portfolio
+
+    final   = df['portfolio_value'].iloc[-1]
+    roi     = (final - starting_capital) / starting_capital * 100
+    roll_mx = df['portfolio_value'].cummax()
+    max_dd  = ((df['portfolio_value'] - roll_mx) / roll_mx).min() * 100
+    rets    = df['portfolio_value'].pct_change().dropna()
+    sharpe  = rets.mean() / rets.std() * np.sqrt(8760) if rets.std() > 0 else np.nan
+    dn      = rets[rets < 0]
+    sortino = rets.mean() / dn.std() * np.sqrt(8760) if len(dn) > 1 else np.nan
+    bh_roi  = (df['close'].iloc[-1] - df['close'].iloc[0]) / df['close'].iloc[0] * 100
+
+    log.info(
+        f"[{label}] ROI={roi:+.2f}%  B&H={bh_roi:+.2f}%  "
+        f"Sharpe={sharpe:.3f}  MaxDD={max_dd:.2f}%  Trades={n_trades}"
+    )
+
+    return dict(label=label, roi=roi, bh_roi=bh_roi, max_dd=max_dd,
+                sharpe=sharpe, sortino=sortino, trades=n_trades,
+                commission=total_fee, df=df)
+
+
+# ===========================================================================
+# FEATURE IMPORTANCE
+# ===========================================================================
+
+def plot_feature_importance(model_dict: dict) -> None:
+    base  = model_dict['base']
+    imp   = base.feature_importances_
+    idx   = np.argsort(imp)[::-1]
+    names = [FEATURE_COLS[i] for i in idx]
+    vals  = imp[idx]
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    colours = plt.cm.RdYlGn(np.linspace(0.2, 0.9, len(vals)))
+    ax.barh(names[::-1], vals[::-1], color=colours[::-1])
+    ax.set_xlabel('XGBoost Feature Importance (gain)')
+    ax.set_title('Feature Importance — Base XGBoost')
+    plt.tight_layout()
+    plt.savefig('feature_importance.png', dpi=150)
+    log.info("Feature importance plot saved → feature_importance.png")
+    plt.show()
+
+
+# ===========================================================================
+# AGGREGATE RESULTS PLOT
+# ===========================================================================
+
+def plot_aggregate(fold_metrics: list[dict], args) -> None:
+    fig = plt.figure(figsize=(16, 10))
+    gs  = gridspec.GridSpec(3, 2, hspace=0.45, wspace=0.35)
+
+    # ---- 1. Equity curves per fold ----
+    ax1 = fig.add_subplot(gs[0, :])
+    ax1.set_title(f"Out-of-Sample Equity Curves — {args.symbol} {args.interval}",
+                  fontsize=13)
+    cmap = plt.cm.tab10
+    for i, m in enumerate(fold_metrics):
+        df  = m['df']
+        pv  = df['portfolio_value'] / df['portfolio_value'].iloc[0] * 100  # index to 100
+        ax1.plot(df['close_dt'], pv, lw=1.5, color=cmap(i), label=m['label'])
+    ax1.axhline(100, color='black', lw=0.8, linestyle='--')
+    ax1.set_ylabel('Indexed Value (start=100)')
+    ax1.legend(fontsize=8, ncol=min(len(fold_metrics), 5))
+
+    # ---- 2. ROI vs B&H bar chart ----
+    ax2 = fig.add_subplot(gs[1, 0])
+    x    = np.arange(len(fold_metrics))
+    rois = [m['roi']    for m in fold_metrics]
+    bhs  = [m['bh_roi'] for m in fold_metrics]
+    ax2.bar(x - 0.2, rois, 0.4, label='Strategy', color='royalblue', alpha=0.85)
+    ax2.bar(x + 0.2, bhs,  0.4, label='B&H',       color='grey',      alpha=0.6)
+    ax2.axhline(0, color='black', lw=0.8)
+    ax2.set_xticks(x)
+    ax2.set_xticklabels([m['label'] for m in fold_metrics], fontsize=8)
+    ax2.set_title('ROI per Fold vs Buy & Hold')
+    ax2.set_ylabel('%')
+    ax2.legend(fontsize=8)
+
+    # ---- 3. Sharpe per fold ----
+    ax3 = fig.add_subplot(gs[1, 1])
+    sharpes = [m['sharpe'] for m in fold_metrics]
+    colours = ['seagreen' if s > 0 else 'crimson' for s in sharpes]
+    ax3.bar(x, sharpes, color=colours, alpha=0.85)
+    ax3.axhline(0, color='black', lw=0.8)
+    ax3.set_xticks(x)
+    ax3.set_xticklabels([m['label'] for m in fold_metrics], fontsize=8)
+    ax3.set_title('Annualised Sharpe per Fold')
+    ax3.set_ylabel('Sharpe')
+
+    # ---- 4. p_conservative distribution (last fold) ----
+    ax4 = fig.add_subplot(gs[2, 0])
+    last_test = fold_metrics[-1]['df']
+    breakeven = args.loss / (args.gain + args.loss)
+    ax4.hist(last_test['p_conservative'].dropna(), bins=40,
+             color='darkorange', alpha=0.75, label='p_conservative')
+    ax4.axvline(breakeven,              color='red',   linestyle='--', label='Breakeven')
+    ax4.axvline(breakeven + args.min_edge, color='green', linestyle='--', label='Min-edge threshold')
+    ax4.set_title('p_conservative Distribution (last fold)')
+    ax4.set_xlabel('Probability')
+    ax4.legend(fontsize=8)
+
+    # ---- 5. Max drawdown per fold ----
+    ax5 = fig.add_subplot(gs[2, 1])
+    dds = [m['max_dd'] for m in fold_metrics]
+    ax5.bar(x, dds, color='crimson', alpha=0.7)
+    ax5.set_xticks(x)
+    ax5.set_xticklabels([m['label'] for m in fold_metrics], fontsize=8)
+    ax5.set_title('Max Drawdown per Fold')
+    ax5.set_ylabel('%')
+
+    plt.savefig('wf_results.png', dpi=150)
+    log.info("Walk-forward results plot saved → wf_results.png")
+    plt.show()
+
+
+# ===========================================================================
+# SUMMARY TABLE
+# ===========================================================================
+
+def print_summary(fold_metrics: list[dict]) -> None:
+    rois    = [m['roi']    for m in fold_metrics]
+    bhs     = [m['bh_roi'] for m in fold_metrics]
+    sharpes = [m['sharpe'] for m in fold_metrics if not np.isnan(m['sharpe'])]
+    dds     = [m['max_dd'] for m in fold_metrics]
+
+    log.info("=" * 65)
+    log.info("WALK-FORWARD SUMMARY")
+    log.info("=" * 65)
+    log.info(f"  Folds completed   : {len(fold_metrics)}")
+    log.info(f"  Mean ROI/fold     : {np.mean(rois):+.2f}% ± {np.std(rois):.2f}%")
+    log.info(f"  Mean B&H/fold     : {np.mean(bhs):+.2f}%")
+    log.info(f"  Alpha (mean)      : {np.mean(rois) - np.mean(bhs):+.2f}%")
+    log.info(f"  Mean Sharpe       : {np.mean(sharpes):.3f}")
+    log.info(f"  Mean Max Drawdown : {np.mean(dds):.2f}%")
+    log.info(f"  Profitable folds  : {sum(r > 0 for r in rois)}/{len(fold_metrics)}")
+    log.info(f"  Beat B&H folds    : {sum(r > b for r, b in zip(rois, bhs))}/{len(fold_metrics)}")
+
+    # t-test: is mean ROI significantly above zero?
+    if len(rois) >= 3:
+        t, p = stats.ttest_1samp(rois, 0)
+        log.info(f"  t-test ROI > 0    : t={t:.3f}  p={p:.4f}  "
+                 f"{'✓ SIGNIFICANT (p<0.10)' if p < 0.10 else '✗ not significant'}")
+
+    log.info("=" * 65)
+
+
+# ===========================================================================
+# ENTRY POINT
+# ===========================================================================
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Kelly Bot v3 — XGBoost + Calibration")
+
+    # Market
+    parser.add_argument('--symbol',        type=str,   default='BTCUSDT')
+    parser.add_argument('--interval',      type=str,   default='1h')
+    parser.add_argument('--mode',          type=str,
+                        choices=['backtest', 'importance'],
+                        default='backtest',
+                        help='backtest: full WF run | importance: feature importance only')
+
+    # Strategy
+    parser.add_argument('--gain',          type=float, default=0.025)
+    parser.add_argument('--loss',          type=float, default=0.010)
+    parser.add_argument('--kelly-mult',    type=float, default=0.5,
+                        help='Fractional Kelly multiplier')
+    parser.add_argument('--min-edge',      type=float, default=0.03,
+                        help='Min probability edge above breakeven to trade')
+
+    # Data
+    parser.add_argument('--lookback-bars', type=int,   default=8000,
+                        help='Total bars to download (more = better ML training)')
+    parser.add_argument('--horizon-bars',  type=int,   default=24,
+                        help='Max bars to resolve a gain/loss outcome')
+
+    # Walk-forward
+    parser.add_argument('--wf-splits',    type=int,   default=5)
+    parser.add_argument('--wf-test-pct',  type=float, default=0.12,
+                        help='Fraction of available data per test fold')
+    parser.add_argument('--train-min',    type=int,   default=800,
+                        help='Minimum training bars before first fold')
+
+    # Execution
+    parser.add_argument('--deadband',     type=float, default=0.10)
+
+    args = parser.parse_args()
+
+    # ---- Fetch raw data ----
+    raw_df = fetch_binance_klines(args.symbol, args.interval, args.lookback_bars)
+
+    if args.mode == 'importance':
+        # Quick mode: fit one model on all data, show feature importance
+        feat_df = build_features(
+            label_outcomes(raw_df, args.gain, args.loss, args.horizon_bars)
+        ).dropna(subset=FEATURE_COLS + ['outcome'])
+
+        X = feat_df[FEATURE_COLS].values
+        y = feat_df['outcome'].values.astype(int)
+        split = int(len(X) * 0.8)
+        md = fit_model(X[:split], y[:split], X[split:], y[split:], args)
+        plot_feature_importance(md)
+
+    else:  # backtest (full walk-forward)
+        fold_metrics = walk_forward(raw_df, args, plot_calibration=True)
+
+        if not fold_metrics:
+            log.error("No folds completed — try increasing --lookback-bars or reducing --train-min")
+        else:
+            # Feature importance from last fold's model
+            plot_feature_importance(fold_metrics[-1]['model_dict'])
+
+            # Aggregate charts
+            plot_aggregate(fold_metrics, args)
+
+            # Summary stats
+            print_summary(fold_metrics)
