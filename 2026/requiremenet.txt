@@ -1,0 +1,22 @@
+# kelly_bot_ml.py — Python dependencies
+# Tested on Python 3.10+
+#
+# Install with:
+#   pip install -r requirements.txt
+
+# --- HTTP / Data fetching ---
+requests>=2.31.0
+
+# --- Data manipulation ---
+numpy>=1.26.0
+pandas>=2.2.0
+
+# --- Machine learning ---
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+
+# --- Statistics ---
+scipy>=1.12.0
+
+# --- Plotting ---
+matplotlib>=3.8.0
