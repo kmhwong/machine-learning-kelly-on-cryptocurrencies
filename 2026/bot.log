@@ -1,0 +1,1638 @@
+2026-04-25 11:16:23  INFO      Connected to Binance TESTNET — status: {'status': 0, 'msg': 'normal'}
+2026-04-25 11:16:23  INFO      Bot started — AVAXUSDT | 1h | SL 2.0% | TP 4.5% | TSL 2.0%
+2026-04-25 11:16:23  INFO      Trade sizing: 10% of balance | min=$10.0 | max=$200.0
+2026-04-25 11:16:23  INFO      EMA90 trend gate: LONG only when close > EMA90
+2026-04-25 11:16:24  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:17:24  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:18:25  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:19:25  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:20:25  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:21:25  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:22:26  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:23:26  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:24:26  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:25:27  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:26:27  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:27:27  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:28:27  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:29:27  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:30:28  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:31:28  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:32:28  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:33:28  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:34:29  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:35:29  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:36:29  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:37:29  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:38:30  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:39:30  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:40:30  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:41:30  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:42:30  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:43:31  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:44:31  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:45:31  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:46:31  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:47:31  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:48:31  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:49:32  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:50:32  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:51:32  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:52:32  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:53:32  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:54:33  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:55:33  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:56:33  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:57:33  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:58:34  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 11:59:34  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:00:34  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:01:34  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:02:34  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:03:34  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:04:35  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:05:35  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:06:35  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:07:36  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:08:36  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:09:36  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:10:36  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:11:36  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:12:37  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:13:37  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:14:37  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:15:37  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:16:37  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:17:37  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:18:38  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:19:38  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:20:38  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:21:38  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:22:38  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:23:41  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:24:41  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:25:42  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:26:42  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:27:42  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:28:42  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:29:42  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:30:42  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:31:43  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:32:43  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:33:43  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:34:43  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:35:43  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:36:43  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:37:44  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:38:44  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:39:44  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:40:45  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:41:45  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:42:45  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:43:45  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:44:45  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:45:46  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:46:46  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:47:46  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:48:46  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:49:47  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:50:47  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:51:47  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:52:47  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:53:48  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:54:48  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:55:48  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:56:49  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:57:49  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:58:49  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 12:59:49  INFO      Price: 9.43  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:00:50  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:01:50  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:02:50  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:03:50  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:04:50  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:05:51  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:06:51  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:07:51  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:08:52  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:09:52  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:10:52  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:11:52  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:12:52  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:13:53  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:14:53  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:15:53  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:16:53  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:17:54  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:18:54  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:19:54  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:20:54  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:21:54  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:22:55  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:23:57  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:24:57  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:25:57  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:26:57  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:27:58  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:28:58  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:29:58  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:30:58  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:31:58  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:32:59  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:33:59  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:34:59  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:35:59  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:37:00  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:38:00  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:39:00  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:40:00  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:41:01  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:42:01  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:43:01  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:44:01  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:45:01  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:46:01  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:47:02  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:48:02  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:49:03  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:50:03  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:51:03  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:52:03  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:53:04  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:54:04  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:55:04  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:56:04  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:57:04  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:58:04  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 13:59:05  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:00:05  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:01:05  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:02:05  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:03:05  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:04:06  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:05:06  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:06:06  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:07:06  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:08:06  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:09:06  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:10:07  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:11:07  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:12:07  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:13:07  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:14:08  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:15:08  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:16:08  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:17:08  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:18:09  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:19:09  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:20:09  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:21:09  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:22:09  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:23:10  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:24:12  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:25:12  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:26:12  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:27:13  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:28:13  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:29:13  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:30:13  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:31:13  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:32:13  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:33:14  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:34:14  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:35:14  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:36:14  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:37:15  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:38:15  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:39:15  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:40:15  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:41:16  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:42:16  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:43:16  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:44:16  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:45:17  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:46:17  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:47:17  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:48:17  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:49:17  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:50:18  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:51:18  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:52:18  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:53:19  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:54:19  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:55:19  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:56:19  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:57:19  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:58:20  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 14:59:20  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:00:20  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:01:20  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:02:20  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:03:21  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:04:21  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:05:21  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:06:21  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:07:21  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:08:21  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:09:22  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:10:22  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:11:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:12:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:13:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:14:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:15:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:16:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:17:24  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:18:24  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:19:24  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:20:25  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:21:25  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:22:25  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:23:25  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:24:27  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:25:27  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:26:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:27:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:28:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:29:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:30:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:31:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:32:29  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:33:29  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:34:29  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:35:29  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:36:30  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:37:30  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:38:30  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:39:30  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:40:31  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:41:31  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:42:31  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:43:31  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:44:31  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:45:31  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:46:32  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:47:32  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:48:32  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:49:32  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:50:32  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:51:33  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:52:33  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:53:33  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:54:33  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:55:34  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:56:34  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:57:34  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:58:34  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 15:59:34  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:00:34  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:01:35  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:02:35  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:03:35  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:04:35  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:05:36  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:06:36  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:07:36  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:08:36  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:09:37  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:10:37  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:11:37  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:12:37  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:13:37  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:14:38  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:15:38  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:16:38  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:17:38  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:18:39  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:19:39  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:20:39  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:21:39  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:22:40  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:23:40  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:24:42  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:25:43  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:26:43  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:27:43  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:28:43  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:29:44  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:30:44  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:31:44  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:32:44  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:33:45  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:34:45  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:35:45  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:36:45  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:37:46  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:38:46  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:39:46  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:40:46  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:41:46  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:42:47  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:43:47  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:44:47  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:45:48  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:46:48  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:47:48  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:48:48  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:49:48  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:50:49  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:51:49  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:52:49  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:53:49  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:54:49  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:55:49  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:56:50  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:57:50  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:58:50  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 16:59:50  INFO      Price: 9.45  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:00:50  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:01:50  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:02:51  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:03:51  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:04:51  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:05:51  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:06:51  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:07:52  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:08:52  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:09:52  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:10:52  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:11:52  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:12:52  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:13:53  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:14:53  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:15:53  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:16:53  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:17:53  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:18:54  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:19:54  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:20:54  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:21:54  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:22:54  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:23:55  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:24:57  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:25:58  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:26:58  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:27:58  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:28:58  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:29:58  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:30:59  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:31:59  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:32:59  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:33:59  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:34:59  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:35:59  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:37:00  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:38:00  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:39:00  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:40:00  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:41:01  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:42:01  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:43:01  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:44:01  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:45:02  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:46:03  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:47:03  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:48:03  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:49:03  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:50:04  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:51:04  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:52:04  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:53:04  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:54:04  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:55:04  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:56:05  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:57:05  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:58:05  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 17:59:05  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:00:05  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:01:06  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:02:06  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:03:06  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:04:06  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:05:07  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:06:07  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:07:07  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:08:07  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:09:08  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:10:08  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:11:08  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:12:08  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:13:08  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:14:08  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:15:09  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:16:09  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:17:09  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:18:09  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:19:09  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:20:10  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:21:10  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:22:10  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:23:10  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:24:10  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:25:13  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:26:13  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:27:13  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:28:14  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:29:14  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:30:14  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:31:14  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:32:15  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:33:15  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:34:15  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:35:15  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:36:15  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:37:16  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:38:16  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:39:16  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:40:16  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:41:17  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:42:17  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:43:17  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:44:17  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:45:18  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:46:18  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:47:18  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:48:18  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:49:19  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:50:19  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:51:19  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:52:20  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:53:20  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:54:20  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:55:20  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:56:20  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:57:21  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:58:21  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 18:59:21  INFO      Price: 9.46  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:00:21  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:01:22  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:02:22  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:03:22  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:04:22  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:05:22  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:06:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:07:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:08:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:09:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:10:23  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:11:24  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:12:24  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:13:24  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:14:24  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:15:24  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:16:25  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:17:25  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:18:25  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:19:25  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:20:26  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:21:26  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:22:26  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:23:26  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:24:26  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:25:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:26:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:27:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:28:28  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:29:29  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:30:29  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:31:29  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:32:29  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:33:29  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:34:30  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:35:30  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:36:30  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:37:30  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:38:30  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:39:31  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:40:31  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:41:31  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:42:32  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:43:32  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:44:32  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:45:32  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:46:33  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:47:33  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:48:33  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:49:33  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:50:34  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:51:34  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:52:34  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:53:35  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:54:35  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:55:35  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:56:35  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:57:36  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:58:36  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 19:59:36  INFO      Price: 9.44  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:00:36  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:01:36  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:02:37  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:03:37  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:04:37  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:05:38  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:06:38  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:07:38  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:08:38  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:09:38  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:10:38  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:11:39  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:12:39  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:13:39  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:14:40  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:15:40  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:16:40  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:17:40  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:18:40  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:19:40  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:20:41  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:21:41  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:22:41  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:23:41  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:24:42  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:25:43  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:26:43  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:27:43  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:28:44  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:29:44  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:30:44  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:31:45  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:32:45  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:33:45  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:34:45  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:35:45  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:36:46  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:37:46  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:38:46  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:39:46  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:40:46  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:41:46  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:42:47  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:43:47  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:44:47  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:45:47  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:46:48  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:47:48  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:48:48  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:49:48  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:50:48  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:51:49  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:52:49  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:53:49  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:54:49  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:55:49  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:56:49  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:57:50  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:58:50  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 20:59:50  INFO      Price: 9.47  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:00:50  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:01:50  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:02:51  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:03:51  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:04:51  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:05:51  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:06:51  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:07:51  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:08:52  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:09:52  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:10:52  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:11:52  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:12:52  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:13:52  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:14:53  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:15:53  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:16:53  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:17:53  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:18:53  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:19:54  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:20:54  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:21:54  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:22:55  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:23:55  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:24:55  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:25:55  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:26:55  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:27:56  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:28:56  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:29:56  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:30:56  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:31:56  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:32:56  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:33:57  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:34:57  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:35:57  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:36:57  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:37:58  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:38:58  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:39:58  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:40:58  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:41:59  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:42:59  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:43:59  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:44:59  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:45:59  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:46:59  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:48:00  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:49:00  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:50:00  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:51:00  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:52:01  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:53:01  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:54:01  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:55:01  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:56:01  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:57:01  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:58:02  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 21:59:02  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:00:03  INFO      Price: 9.48  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:01:03  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:02:03  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:03:03  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:04:04  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:05:04  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:06:04  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:07:04  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:08:04  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:09:05  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:10:05  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:11:05  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:12:05  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:13:05  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:14:06  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:15:06  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:16:06  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:17:06  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:18:06  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:19:07  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:20:07  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:21:07  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:22:07  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:23:07  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:24:08  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:25:08  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:26:08  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:27:08  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:28:08  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:29:09  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:30:09  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:31:09  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:32:09  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:33:10  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:34:10  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:35:10  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:36:11  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:37:11  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:38:11  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:39:11  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:40:11  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:41:12  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:42:12  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:43:12  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:44:12  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:45:12  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:46:12  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:47:13  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:48:13  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:49:13  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:50:13  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:51:13  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:52:14  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:53:14  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:54:14  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:55:14  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:56:14  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:57:15  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:58:15  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 22:59:15  INFO      Price: 9.41  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:00:15  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:01:15  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:02:16  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:03:16  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:04:16  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:05:16  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:06:17  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:07:17  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:08:17  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:09:17  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:10:18  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:11:18  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:12:18  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:13:18  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:14:18  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:15:19  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:16:19  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:17:19  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:18:19  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:19:19  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:20:19  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:21:20  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:22:20  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:23:20  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:24:20  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:25:21  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:26:21  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:27:21  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:28:21  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:29:21  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:30:21  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:31:22  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:32:22  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:33:22  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:34:22  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:35:23  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:36:23  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:37:23  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:38:23  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:39:23  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:40:24  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:41:24  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:42:24  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:43:24  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:44:25  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:45:25  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:46:25  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:47:25  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:48:26  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:49:26  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:50:26  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:51:26  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:52:26  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:53:26  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:54:27  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:55:27  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:56:28  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:57:28  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:58:28  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-25 23:59:28  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:00:28  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:01:29  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:02:29  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:03:29  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:04:30  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:05:30  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:06:30  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:07:30  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:08:30  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:09:30  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:10:31  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:11:31  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:12:31  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:13:31  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:14:32  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:15:32  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:16:32  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:17:32  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:18:33  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:19:33  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:20:34  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:21:34  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:22:34  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:23:35  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:24:35  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:25:35  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:26:35  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:27:36  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:28:36  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:29:36  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:30:36  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:31:36  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:32:36  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:33:37  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:34:37  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:35:37  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:36:37  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:37:37  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:38:38  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:39:38  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:40:38  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:41:38  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:42:38  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:43:38  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:44:39  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:45:39  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:46:39  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:47:39  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:48:39  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:49:40  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:50:40  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:51:40  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:52:40  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:53:41  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:54:41  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:55:41  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:56:41  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:57:41  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:58:41  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 00:59:42  INFO      Price: 9.42  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:00:42  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:01:42  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:02:43  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:03:43  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:04:43  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:05:44  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:06:44  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:07:44  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:08:44  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:09:44  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:10:45  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:11:45  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:12:45  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:13:45  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:14:45  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:15:46  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:16:46  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:17:46  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:18:46  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:19:47  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:20:47  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:21:47  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:22:47  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:23:48  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:24:48  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:25:48  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:26:48  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:27:49  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:28:49  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:29:49  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:30:49  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:31:49  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:32:49  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:33:50  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:34:50  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:35:50  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:36:50  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:37:50  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:38:50  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:39:51  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:40:51  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:41:51  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:42:51  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:43:51  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:44:52  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:45:52  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:46:52  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:47:52  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:48:52  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:49:52  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:50:53  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:51:53  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:52:53  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:53:53  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:54:54  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:55:54  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:56:54  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:57:54  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:58:54  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 01:59:54  INFO      Price: 9.40  Signal: +0  Trend: above EMA200 [UP]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:00:55  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:01:55  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:02:55  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:03:55  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:04:55  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:05:56  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:06:56  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:07:56  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:08:56  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:09:56  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:10:57  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:11:57  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:12:57  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:13:58  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:14:58  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:15:58  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:16:58  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:17:58  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:18:59  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:19:59  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:20:59  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:21:59  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:22:59  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:24:00  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:25:00  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:26:00  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:27:00  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:28:01  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:29:01  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:30:01  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:31:01  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:32:01  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:33:02  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:34:02  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:35:02  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:36:02  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:37:03  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:38:03  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:39:03  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:40:03  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:41:03  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:42:04  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:43:04  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:44:04  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:45:04  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:46:05  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:47:05  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:48:05  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:49:05  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:50:05  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:51:05  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:52:06  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:53:06  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:54:06  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:55:06  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:56:06  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:57:07  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:58:07  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 02:59:07  INFO      Price: 9.35  Signal: -1  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:00:07  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:01:07  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:02:07  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:03:08  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:04:08  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:05:08  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:06:09  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:07:09  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:08:09  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:09:09  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:10:09  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:11:10  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:12:10  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:13:10  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:14:10  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:15:11  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:16:11  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:17:11  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:18:11  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:19:12  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:20:12  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:21:12  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:22:12  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:23:12  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:24:12  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:25:13  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:26:13  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:27:13  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:28:13  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:29:13  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:30:14  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:31:14  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:32:14  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:33:14  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:34:14  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:35:15  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:36:15  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:37:15  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:38:15  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:39:15  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:40:16  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:41:16  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:42:16  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:43:16  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:44:16  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:45:16  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:46:17  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:47:17  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:48:17  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:49:18  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:50:18  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:51:18  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:52:19  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:53:19  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:54:19  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:55:19  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:56:20  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:57:20  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:58:20  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 03:59:20  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:00:20  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:01:21  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:02:21  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:03:21  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:04:21  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:05:21  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:06:21  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:07:22  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:08:22  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:09:22  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:10:22  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:11:22  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:12:23  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:13:23  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:14:23  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:15:23  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:16:23  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:17:23  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:18:24  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:19:24  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:20:24  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:21:24  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:22:24  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:23:25  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:24:25  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:25:25  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:26:25  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:27:25  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:28:25  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:29:26  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:30:26  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:31:26  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:32:26  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:33:26  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:34:26  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:35:27  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:36:27  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:37:27  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:38:27  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:39:27  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:40:27  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:41:28  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:42:28  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:43:28  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:44:28  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:45:29  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:46:29  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:47:29  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:48:30  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:49:30  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:50:30  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:51:30  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:52:31  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:53:31  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:54:31  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:55:31  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:56:32  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:57:32  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:58:32  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 04:59:32  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:00:32  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:01:33  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:02:33  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:03:33  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:04:33  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:05:33  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:06:33  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:07:34  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:08:34  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:09:34  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:10:34  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:11:34  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:12:35  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:13:35  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:14:35  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:15:35  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:16:35  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:17:36  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:18:36  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:19:36  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:20:36  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:21:36  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:22:36  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:23:37  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:24:37  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:25:37  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:26:37  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:27:38  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:28:38  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:29:38  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:30:38  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:31:38  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:32:39  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:33:39  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:34:39  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:35:39  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:36:39  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:37:39  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:38:40  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:39:40  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:40:40  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:41:40  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:42:40  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:43:40  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:44:41  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:45:41  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:46:41  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:47:41  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:48:41  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:49:41  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:50:42  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:51:42  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:52:42  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:53:42  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:54:42  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:55:42  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:56:43  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:57:43  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:58:43  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 05:59:43  INFO      Price: 9.32  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:00:44  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:01:44  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:02:44  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:03:44  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:04:44  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:05:45  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:06:45  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:07:45  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:08:45  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:09:46  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:10:46  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:11:47  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:12:47  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:13:47  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:14:47  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:15:47  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:16:48  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:17:48  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:18:48  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:19:48  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:20:48  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:21:49  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:22:49  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:23:49  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:24:49  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:25:49  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:26:49  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:27:50  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:28:50  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:29:50  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:30:50  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:31:51  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:32:51  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:33:51  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:34:51  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:35:52  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:36:52  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:37:53  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:38:53  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:39:53  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:40:53  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:41:53  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:42:54  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:43:54  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:44:54  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:45:55  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:46:55  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:47:55  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:48:55  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:49:55  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:50:55  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:51:56  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:52:56  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:53:56  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:54:56  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:55:56  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:56:57  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:57:57  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:58:57  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 06:59:57  INFO      Price: 9.31  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:00:57  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:01:57  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:02:58  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:03:58  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:04:58  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:05:58  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:06:58  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:07:58  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:08:59  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:09:59  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:10:59  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:11:59  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:13:00  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:14:00  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:15:00  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:16:00  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:17:00  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:18:00  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:19:01  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:20:01  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:21:01  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:22:02  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:23:02  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:24:02  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:25:02  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:26:02  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:27:03  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:28:03  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:29:03  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:30:03  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:31:04  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:32:04  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:33:04  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:34:04  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:35:04  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:36:04  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:37:05  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:38:05  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:39:05  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:40:05  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:41:06  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:42:06  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:43:06  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:44:06  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:45:06  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:46:07  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:47:07  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:48:08  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:49:08  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:50:09  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:51:09  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:52:09  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:53:09  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:54:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:55:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:56:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:57:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:58:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 07:59:11  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:00:11  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:01:11  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:02:11  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:03:12  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:04:12  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:05:12  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:06:12  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:07:12  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:08:13  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:09:13  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:10:13  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:11:13  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:12:13  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:13:14  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:14:14  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:15:14  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:16:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:17:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:18:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:19:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:20:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:21:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:22:16  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:23:16  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:24:16  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:25:16  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:26:17  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:27:17  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:28:17  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:29:17  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:30:17  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:31:18  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:32:18  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:33:18  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:34:18  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:35:19  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:36:19  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:37:19  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:38:19  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:39:19  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:40:19  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:41:20  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:42:20  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:43:20  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:44:20  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:45:20  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:46:21  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:47:21  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:48:21  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:49:21  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:50:21  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:51:22  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:52:22  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:53:22  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:54:22  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:55:22  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:56:22  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:57:23  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:58:23  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 08:59:23  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:00:23  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:01:23  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:02:24  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:03:24  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:04:24  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:05:24  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:06:24  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:07:25  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:08:25  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:09:25  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:10:25  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:11:25  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:12:26  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:13:26  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:14:26  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:15:26  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:16:27  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:17:27  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:18:27  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:19:27  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:20:27  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:21:27  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:22:28  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:23:28  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:24:28  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:25:29  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:26:29  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:27:29  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:28:29  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:29:30  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:30:30  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:31:30  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:32:30  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:33:31  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:34:31  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:35:31  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:36:31  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:37:32  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:38:32  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:39:32  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:40:32  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:41:33  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:42:33  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:43:33  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:44:34  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:45:34  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:46:34  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:47:35  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:48:35  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:49:35  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:50:36  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:51:36  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:52:36  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:53:36  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:54:36  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:55:37  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:56:37  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:57:37  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:58:37  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 09:59:37  INFO      Price: 9.36  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:00:37  INFO      New day — resetting daily P&L (was 0.00 USDT)
+2026-04-26 10:00:38  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:01:38  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:02:38  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:03:38  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:04:38  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:05:39  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:06:39  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:07:39  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:08:39  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:09:39  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:10:39  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:11:40  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:12:40  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:13:40  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:14:40  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:15:40  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:16:41  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:17:41  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:18:41  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:19:41  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:20:41  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:21:41  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:22:42  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:23:42  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:24:42  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:25:42  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:26:42  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:27:43  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:28:43  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:29:44  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:30:44  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:31:44  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:32:44  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:33:44  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:34:45  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:35:45  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:36:45  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:37:45  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:38:45  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:39:46  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:40:46  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:41:46  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:42:46  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:43:46  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:44:47  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:45:47  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:46:47  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:47:47  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:48:47  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:49:48  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:50:48  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:51:48  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:52:48  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:53:48  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:54:49  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:55:49  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:56:49  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:57:49  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:58:49  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 10:59:50  INFO      Price: 9.37  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:00:50  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:01:50  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:02:50  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:03:50  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:04:51  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:05:51  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:06:51  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:07:51  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:08:52  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:09:52  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:10:52  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:11:52  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:12:52  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:13:53  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:14:53  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:15:53  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:16:53  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:17:54  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:18:54  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:19:54  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:20:54  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:21:54  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:22:54  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:23:55  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:24:55  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:25:55  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:26:55  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:27:56  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:28:56  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:29:56  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:30:56  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:31:57  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:32:57  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:33:57  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:34:57  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:35:58  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:36:58  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:37:58  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:39:02  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:40:02  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:41:02  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:42:03  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:43:03  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:44:03  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:45:03  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:46:03  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:47:04  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:48:04  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:49:04  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:50:04  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:51:04  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:52:05  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:53:05  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:54:05  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:55:05  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:56:05  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:57:06  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:58:06  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 11:59:06  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:00:06  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:01:06  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:02:07  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:03:07  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:04:07  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:05:07  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:06:07  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:07:08  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:08:08  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:09:08  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:10:08  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:11:08  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:12:09  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:13:09  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:14:09  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:15:09  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:16:09  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:17:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:18:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:19:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:20:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:21:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:22:10  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:23:11  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:24:11  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:25:11  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:26:12  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:27:12  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:28:12  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:29:12  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:30:13  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:31:13  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:32:13  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:33:14  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:34:14  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:35:14  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:36:14  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:37:14  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:38:14  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:39:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:40:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:41:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:42:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:43:15  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:44:16  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:45:16  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:46:16  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:47:16  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:48:16  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:49:17  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:50:17  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:51:17  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:52:18  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:53:18  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:54:18  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:55:18  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:56:18  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:57:19  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:58:19  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 12:59:19  INFO      Price: 9.33  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:00:19  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:01:20  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:02:20  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:03:20  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:04:20  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:05:20  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:06:21  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:07:21  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:08:21  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:09:22  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:10:22  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:11:22  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:12:22  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:13:23  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:14:23  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:15:23  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:16:23  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:17:24  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:18:24  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:19:24  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:20:24  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:21:24  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:22:25  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:23:25  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:24:25  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:25:25  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:26:25  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:27:26  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:28:26  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:29:26  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:30:26  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:31:26  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:32:26  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:33:27  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:34:27  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:35:27  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:36:27  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:37:28  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:38:28  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:39:28  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:40:29  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:41:29  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:42:29  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:43:29  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:44:29  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:45:30  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:46:30  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:47:30  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:48:30  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:49:31  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:50:31  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:51:31  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:52:31  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:53:31  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:54:31  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:55:32  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:56:32  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:57:33  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:58:33  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 13:59:33  INFO      Price: 9.35  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:00:33  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:01:33  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:02:33  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:03:34  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:04:34  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:05:34  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:06:34  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:07:35  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:08:35  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:09:35  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:10:35  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:11:35  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:12:36  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:13:36  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:14:36  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:15:36  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:16:36  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:17:37  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:18:37  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:19:37  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:20:37  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:21:37  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:22:38  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:23:38  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:24:38  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:25:38  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:26:39  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:27:39  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:28:39  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:29:40  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:30:40  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:31:40  INFO      Price: 9.34  Signal: +0  Trend: below EMA200 [DOWN - no entry]  Position: NO  Daily P&L: +0.0000
+2026-04-26 14:32:22  INFO      Shutdown requested (Ctrl+C)
+2026-04-26 14:32:22  INFO      No open position — clean shutdown.
+2026-04-26 14:32:22  INFO      Bot shut down.
